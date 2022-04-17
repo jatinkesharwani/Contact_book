@@ -72,7 +72,7 @@ class AddPoeple(Toplevel):
             if person_id=="" or person_name=="" or person_name1=="" or person_email=="" or person_phoneno=="" or person_addr=="":
                 messagebox.showinfo("insert status","please fill all detail")
             else:
-                con=mysql.connector.connect( host="localhost", port='3306', user="root", db="projectfile",password="K6e1p8je5wpp34@")
+                con=mysql.connector.connect( host="localhost", port='3306', user="root", db="projectfile",password="jatinmysql")
                 
                 query='create table if not exists user(user_id int primary key,user_name varchar(200),user_name1 varchar(200),user_email varchar(300),user_phoneno varchar(12),user_addr varchar(300))'   
                 cur=con.cursor()

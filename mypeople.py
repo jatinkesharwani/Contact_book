@@ -5,7 +5,7 @@ from addpoeple import AddPoeple
 from updatepeople import Update
 from displaypeople import Display
 
-con=mysql.connector.connect(host='localhost',port='3306',user='root',password='K6e1p8je5wpp34@',database='projectfile')
+con=mysql.connector.connect(host='localhost',port='3306',user='root',password='jatinmysql',database='projectfile')
 cur=con.cursor()
 
 class MyPeople(Toplevel):
